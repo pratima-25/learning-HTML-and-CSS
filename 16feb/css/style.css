@@ -4,51 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* main styling */
 html,
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
-
 }
-
 a {
     color: #333;
     text-decoration: none;
 }
-
 h1,
 h2,
 h3 {
     padding: 20px;
 }
-
 p {
     margin: 10px 0;
-
 }
-
 /* utility classes */
 /* these are the classes that we will use throught the 
 site and are not specific to any specific area*/
-
 .container {
     margin: auto;
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
 }
-
 .primary-heading {
     color: #f7c08a;
 }
-
 .lead {
     font-size: 18px;
-
 }
-
 .btn {
     display: inline-block;
     font-size: 18px;
@@ -57,54 +45,44 @@ site and are not specific to any specific area*/
     padding: 13px 20px;
     border: none;
     cursor: pointer;
-
 }
-
 .btn:hover {
     background:  #f7c08a;
     color: #333;
 }
-
 .btn-light{
     background: #f4f4f4;
     color: #333;
     margin-top: 20px;
 }
-
 .clr {
     clear: both;
 }
 .l-heading {
     font-size: 40px;
 }
-
 /* padding for top and bottom */
 .py-1 { padding: 10px 0; }
 .py-2 { padding: 20px 0; }
 .py-3 { padding: 30px 0; }
-
 /* .bg-dark {
     background: #333;
     color: #fff;
 } */
-
 /* .bg-light {
     background: #f4f4f4;
     color: #333;
 }
-
 .bg-primary {
     background: #333;
     color: #f7c08a;
 } */
-
 /*  navbar styling */
 #navbar {
      background: #333;
      color: #fff;
      overflow: auto;
 }
-
 #navbar a {
     color: white;
 }
@@ -114,12 +92,10 @@ site and are not specific to any specific area*/
     color: white;
 
 }
-
 #navbar ul {
     list-style: none;
     float: right;
 }
-
 #navbar ul li {
     float: left;
 }
@@ -128,21 +104,19 @@ site and are not specific to any specific area*/
     padding: 20px;
     text-align: center;
 }
-
 #navbar ul li a:hover, 
 #navbar ul li a.current{
     background: #444;
     /* border-style: solid; */
     /* border-radius: 8px; */
     color: #f7c0aa;
-    
+   
 }
 /* showcase */
 
 #showcase {
     background: url(../img/backG.jpg) no-repeat center center/cover ;
     height: 600px;
-
 }
 #showcase .showcase-content {
     color: #fff;
@@ -152,28 +126,22 @@ site and are not specific to any specific area*/
 #showcase .showcase-content h1 {
     font-size: 60px;
     line-height: 1.2em;
-
 }
 #showcase .showcase-content p {
     padding-bottom: 20px;
     line-height: 1.7em;
 }
-
 /* home info */
-
 #home-info {
     height: 370px;
 }
-
 #home-info > .info-img {
     float: left;
     width: 50%;
     background: url(../img/home.jpg) center/cover no-repeat ;
     /* border: 1px solid red; */
-    height:  22rem;
-    
+    height:  22rem;   
 }
-
 #home-info .info-content{
     float: right;
     width: 50%;
@@ -181,49 +149,37 @@ site and are not specific to any specific area*/
     text-align: center;
     /* line-height: 2em; */
     padding: 40px 30px;
-    overflow: hidden;
-     
+    overflow: hidden;    
 }
-
 .box {
     float: left;
     width: 33.3%;
     padding: 50px;
     text-align: center;
     height: 400;
-
 }
-
 #box1, #box3{
     background: #f4f4f4;
-
 }
 #box2 {
     background:  #f7c08a;
 }
-
 #about-info .info-right {
     float: right;
     width: 50%;
     min-height: 100%;
 }
-
 #about-info .info-right img {
     display: block;
     margin: auto;
     width: 70%;
     border-radius: 50%;
 }
-
-
 #about-info .info-left {
     float: left;
     width: 50%;
     min-height: 100%;
 }
-
-
-
 #main-footer {
     text-align: center;
     background: #444;
