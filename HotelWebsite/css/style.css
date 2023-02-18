@@ -122,7 +122,6 @@ site and are not specific to any specific area*/
     float: left;
     padding: 20px;
     color: white;
-
 }
 
 #navbar ul {
@@ -270,8 +269,28 @@ site and are not specific to any specific area*/
     float: left;
     margin-right: 20px;
     border-radius: 50%;
-    /* border-radius: 10%; */
-    
+    /* border-radius: 10%; */  
+}
+/* contact form */
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#btn{
+    padding: 20px;
 }
 
 #main-footer {
