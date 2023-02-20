@@ -289,8 +289,8 @@ site and are not specific to any specific area*/
     height: 200px;
 }
 
-#btn{
-    padding: 20px;
+.btn{
+    margin-bottom: 20px;
 }
 
 #main-footer {
