@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Media Queries</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: grey;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+      }
+
+      h1 {
+        display: none;
+      }
+
+      /* SMART PHONES */
+      @media (max-width: 500px) {
+        body {
+          background: red;
+        }
+        #smartphone h1 {
+          display: block;
+        }
+      }
+
+      /* tablet */
+      @media (min-width: 501px) and (max-width: 786px) {
+        body {
+          background: rgb(35, 139, 75);
+        }
+        #tablet h1 {
+          display: block;
+        }
+      }
+      /* normal */
+
+      @media (min-width: 787px) and (max-width: 1200px) {
+        body {
+          background: blue;
+        }
+        #normal h1 {
+          display: block;
+        }
+      }
+
+      /* wide screen */
+
+      @media (min-width: 1201px) {
+        body {
+          background: rgb(8, 8, 8);
+        }
+        #widescreen h1 {
+          display: block;
+        }
+      }
+      /* landscape */
+      @media (min-height: 500px) {
+        body {
+          background: rgb(230, 151, 48);
+        }
+        #landscape h1 {
+          display: block;
+        }
+      }
+    </style>
+
+    <!-- <link
+      rel="stylesheet"
+      media="screen and (max-width: 786px)"
+      href="../HotelWebsite/css/mobile.css"
+    /> -->
+  </head>
+  <body>
+    <div id="widescreen">
+      <h1>Widescreen</h1>
+    </div>
+    <div id="normal">
+      <h1>Normal</h1>
+    </div>
+    <div id="tablet">
+      <h1>Tablet</h1>
+    </div>
+    <div id="smartphone">
+      <h1>Smartphone</h1>
+    </div>
+    <div id="landscape">
+      <h1>Landscape</h1>
+    </div>
+  </body>
+</html>
